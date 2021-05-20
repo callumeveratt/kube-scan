@@ -9,12 +9,12 @@ deployment:
 ## Image Specifications
 image:
   ui:
-    repository: octarinesec/kubescan-scanner-ui
-    tag: "20.5"
+    repository: callumeveratt/kube-scan-ui
+    tag: "release-0.0.6"
     pullPolicy: IfNotPresent
   scanner:
-    repository: octarinesec/kubescan-scanner
-    tag: "20.5"
+    repository: callumeveratt/kube-scan
+    tag: "release-0.0.6"
     pullPolicy: IfNotPresent
 
 # Ports for kubescan
